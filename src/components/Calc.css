@@ -1,0 +1,58 @@
+@media screen and (max-width: 700px) {
+    .calc {
+        width: 40vh;
+    }
+
+    .branco, .laranja, .cinza{
+        width: 7vh;
+        height: 7vh;
+    }
+}
+
+.digitos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5vh;
+}
+
+.calc {
+    max-width: 50vh;
+    padding: 4vh;
+    box-shadow: 7px 6px 0px 0px #FF9500;
+    border-radius: 2vh;
+    background-image: linear-gradient(to bottom, #222222, #161616);
+}
+
+.res{
+    width: 42vh;
+    overflow-wrap: break-word;
+    margin: 7vh 2vh 6vh 0vh;
+    font-size: 3.5rem;
+    line-height: 5vh;
+}
+
+button {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 4em;
+}
+
+.branco {
+    background-color: white;
+    color: #121315;
+    font-size: 2rem;
+}
+
+.cinza {
+    background-color: #505050;
+    font-size: 2.5rem;
+}
+
+.laranja {
+    background-color: #FF9500;
+    font-size: 2.5em;
+}
+
+#oculto {
+    visibility: hidden;
+}
